@@ -2,7 +2,8 @@
 .DS_Store
 
 # local-only folders
-local-only/
+local-files/
+data/
 project-description/
 templates/
 refernece/
