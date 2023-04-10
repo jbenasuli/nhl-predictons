@@ -1,6 +1,9 @@
 # OS Generated Files
 .DS_Store
 
+# VS Code Settings Json
+.vscode/settings.json
+
 # local-only folders
 local-files/
 data/
