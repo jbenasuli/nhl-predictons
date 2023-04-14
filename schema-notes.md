@@ -82,9 +82,9 @@ Notes:
 Basis/descriptive stats to aid in feature engineering
 
 - Home team name (align with nhl team name encoding)
-- GP: games_played (dont think this will be predictive, but we may need it for derizing some new stats)
+- GP: games_played (dont think this will be predictive, but we may need it for deriving some new stats)
 - TOI: time_on_ice (see GP above)
-- Standandings points
+- Standings points
   - would need to express as rate of GP/Possible Points aka points percentage
   - points per rolling window (would this only work for lopsided opponents with a big stats delta? or would it just be plain old noisy?)
 
@@ -141,3 +141,8 @@ Adjust the following stats on a 'per60' basis i.e. divide individual skater stat
 ## data to scrape
 
 ## data to download
+
+### alt subsets to potentially test
+EV xG+/-, EV G+/-, PP G+/-, SH G+/-, Individual Points, GSAx
+EV xG+/-, PP G+/-, SH G+/-, GAx, GSAx
+EV xGA, EV GF, PP G+/-, SH G+/-, GSAx
