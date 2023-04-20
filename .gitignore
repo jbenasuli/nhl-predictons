@@ -6,7 +6,7 @@
 
 # local-only folders
 local-files/
-data/
+data-cache/
 project-description/
 templates/
 references/
