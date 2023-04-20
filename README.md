@@ -72,7 +72,7 @@ Basic logistic regression
   <img src='imgs/baseline cm.png' width='60%' height='60%'>
 
 Gridsearch results for the 4 types of models tested
-  <img src='model results.png' width='60%' height='60%'>
+  <img src='imgs/model-results.png' width='60%' height='60%'>
 
 Cross Validated Logistic Regression
 
@@ -80,7 +80,7 @@ Cross Validated Logistic Regression
 - Scoring on holdout dataset:
   - Test accuracy: 0.64
   - Test log loss score: 0.653
-  <img src='imgs/pred cm.png' width='70%' height='70%'>
+  <img src='imgs/predcm.png' width='70%' height='70%'>
 
 ## Conclusions & Next Steps
 
@@ -106,10 +106,11 @@ Cross Validated Logistic Regression
 ## Repo Structure
 
 ```
+├── data
 ├── imgs
 ├── .gitignore
-├── NHL-Expected-Goals-Notebook.pdf
-├── NHL-Expected-Goals-Presentation.pdf
-├── NHL-Expected-Goals.ipynb
-└── README.md
+├── Predicting NHL Game Winners.pdf
+├── README.md
+├── nhl-predictions-data-processing.ipynb
+└── nhl-predictions-modeling.ipynb
 ```
