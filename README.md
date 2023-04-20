@@ -1,3 +1,5 @@
+![nhl-banner-image](imgs/nhl-teams.jpg)
+
 # Modeling NHL Win Probabilities
 
 Building binary classification models to predict the winning team in an NHL matchup.
