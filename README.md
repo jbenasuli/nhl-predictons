@@ -72,7 +72,7 @@ Basic logistic regression
   <img src='imgs/baseline cm.png' width='60%' height='60%'>
 
 Gridsearch results for the 4 types of models tested
-  <img src='imgs/model-results.png' width='60%' height='60%'>
+  <img src='imgs/model-results.png' width='100%' height='100%'>
 
 Cross Validated Logistic Regression
 
